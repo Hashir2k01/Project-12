@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+  }
+
+
+  .first-container{
+    background-image: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+        linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent),
+        linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent),
+        url('https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    color: white;
+
+    
+  } 
+
+
+  .btn-read-more {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ffb400; 
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px; 
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-read-more:hover {
+    background-color: #5f4100;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+
+}
+  .first-text{
+    font-size: 40px;
+    line-height: 1.2;
+    
+  }
+
+
+  .second-container {
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .food-card {
+    position: relative;
+    width: 30%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .food-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .food-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h2 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+
+  .third-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #1A1A1A;
+  }
+  
+  .dish-info {
+    width: 50%;
+  }
+  
+  .dish-info h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .dish-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .dish-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  .dish-image {
+    width: 40%;
+  }
+  
+  .dish-image img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+  .fourth-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #1A1A1A;
+  }
+  
+  .dish-info {
+    width: 50%;
+  }
+  
+  .dish-info h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .dish-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .dish-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .dish-image {
+    width: 40%;
+  }
+  
+  .dish-image img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+  .fifth-container {
+    height: auto;
+    background-color:#1A1A1A ;
+    display: flex;
+    padding: 20px;
+}
+
+.food-item {
+   margin-left: 150px;
+    background-color: #1A1A1A ;
+    border-radius: 15px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 450px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+
+}
+
+
+.food-item img {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: white;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.read-more {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #28a745;
+}
+
+
+.contact-section {
+  height: 60vh;
+  padding: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #1A1A1A;
+}
+
+.contact-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.contact-item h3 {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.contact-item p {
+  color: #cfcfcf;
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.contact-info {
+  color: #ff9b01;
+  font-size: 1rem;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #32CD32;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 1200px) {
+  .first-text {
+      font-size: 30px;
+  }
+
+  .second-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .food-card {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  .third-container, .fourth-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .dish-info, .dish-image {
+      width: 100%;
+      text-align: center;
+  }
+
+  .fifth-container {
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  .food-item {
+      width: 80%;
+      margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-container {
+      padding: 100px 20px;
+  }
+
+  .first-text {
+      font-size: 24px;
+  }
+
+  .btn-read-more {
+      padding: 15px 30px;
+      font-size: 14px;
+  }
+
+  .dish-info h1 {
+      font-size: 36px;
+  }
+
+  .dish-info h2 {
+      font-size: 20px;
+  }
+
+  .dish-image img {
+      width: 90%;
+  }
+
+  .food-item img {
+      width: 100%;
+      height: auto;
+  }
+
+  .contact-section {
+      flex-direction: column;
+      padding: 50px 20px;
+  }
+
+  .contact-item {
+      margin-bottom: 20px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .first-text {
+      font-size: 20px;
+  }
+
+  .btn-read-more {
+      padding: 10px 20px;
+      font-size: 12px;
+  }
+
+  .food-card {
+      width: 100%;
+  }
+
+  .third-container {
+    padding: 15px;
+  }
+
+  .fourth-container{
+    padding: 15px;
+  }
+}
+
+.contact-section{
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .first-container {
+        padding: 50px; 
+        height: 50vh;
+    }
+}
